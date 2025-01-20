@@ -3,11 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  css:{
-    postcss:'./postcss.config.js'
-  },
   plugins: [react()],
-  server: {
-    open: true, // Add this line
-  },
+  server:{
+    open:true
+  }
 })

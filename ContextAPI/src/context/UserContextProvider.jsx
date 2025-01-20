@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import PropTypes from 'prop-types'; // Import PropTypes
+import PropTypes from 'prop-types'; 
 import UserContext from "./UserContext";
 
 const UserContextProvider = ({ children }) => {
@@ -14,9 +14,12 @@ const UserContextProvider = ({ children }) => {
   );
 };
 
-// Add PropTypes validation
+
 UserContextProvider.propTypes = {
-  children: PropTypes.node.isRequired, // Validate children as a React node
+  children: PropTypes.node.isRequired,
 };
 
 export default UserContextProvider;
+
+
+
