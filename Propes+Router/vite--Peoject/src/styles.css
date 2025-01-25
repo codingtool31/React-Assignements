@@ -1,0 +1,116 @@
+/* src/assets/styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.home-page {
+  margin-top: 50px;
+}
+
+.home-page h1 {
+  font-size: 36px;
+}
+
+.home-page .btn {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.home-page .btn:hover {
+  background-color: #0056b3;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.image-item {
+  margin: 10px;
+}
+
+.image-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.image-item img:hover {
+  transform: scale(1.1);
+}
+
+.fullscreen-image {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fullscreen-image img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+.fullscreen-image p {
+  font-size: 20px;
+  color: #333;
+}
+
+.back-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.back-btn:hover {
+  background-color: #555;
+}

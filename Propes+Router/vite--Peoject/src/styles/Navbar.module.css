@@ -1,0 +1,26 @@
+/* src/styles/Navbar.module.css */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
